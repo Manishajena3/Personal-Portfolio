@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2 class="logo">MyPortfolio</h2>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Home Section -->
+<section id="home" class="home">
+  <img src="Profile.jpg" alt="Profile Picture">
+  <h1>Hello, I'm <span>Your Name</span></h1>
+  <p>A passionate Web Developer creating modern websites.</p>
+  <a href="resume.pdf" target="_blank" class="btn">Download Resume</a>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    I am a web developer with strong knowledge of HTML, CSS, and JavaScript.
+    I enjoy building responsive and interactive websites.
+  </p>
+  <ul>
+    <li><strong>Education:</strong> B.Tech / Diploma / Student</li>
+    <li><strong>Experience:</strong> Fresher</li>
+    <li><strong>Hobbies:</strong> Coding, Gaming, Learning Tech</li>
+  </ul>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+  <h2>My Projects</h2>
+  <div class="project-container">
+    <div class="project-card">
+      <img src="https://via.placeholder.com/300" alt="Project 1">
+      <h3>Project One</h3>
+      <p>A responsive website built using HTML and CSS.</p>
+    </div>
+    <div class="project-card">
+      <img src="https://via.placeholder.com/300" alt="Project 2">
+      <h3>Project Two</h3>
+      <p>JavaScript-based interactive web application.</p>
+    </div>
+    <div class="project-card">
+      <img src="https://via.placeholder.com/300" alt="Project 3">
+      <h3>Project Three</h3>
+      <p>Portfolio website with modern UI design.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <input type="text" id="subject" placeholder="Subject">
+    <textarea id="message" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+    <p id="error"></p>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Your Name | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
